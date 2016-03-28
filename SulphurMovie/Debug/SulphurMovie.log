@@ -1,0 +1,41 @@
+﻿Build started 8/6/2012 4:17:28 PM.
+     1>Project "C:\Molecular Dynamics\C_code\SulphurMovie\SulphurMovie\SulphurMovie.vcxproj" on node 2 (rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Molecular Dynamics\C_code\SulphurMovie\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\SulphurMovie.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Sulphur.cpp
+         Sulphur.cpp
+     1>c:\molecular dynamics\c_code\sulphurmovie\sulphurmovie\sulphur.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\molecular dynamics\c_code\sulphurmovie\sulphurmovie\sulphur.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\molecular dynamics\c_code\sulphurmovie\sulphurmovie\sulphur.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\molecular dynamics\c_code\sulphurmovie\sulphurmovie\sulphur.cpp(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\molecular dynamics\c_code\sulphurmovie\sulphurmovie\sulphur.cpp(27): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\molecular dynamics\c_code\sulphurmovie\sulphurmovie\sulphur.cpp(27): warning C4700: uninitialized local variable 'fileName' used
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SulphurMovie.exe.embed.manifest.res" Debug\SulphurMovie_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Molecular Dynamics\C_code\SulphurMovie\Debug\SulphurMovie.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SulphurMovie.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Molecular Dynamics\C_code\SulphurMovie\Debug\SulphurMovie.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Molecular Dynamics\C_code\SulphurMovie\Debug\SulphurMovie.lib" /MACHINE:X86 Debug\SulphurMovie.exe.embed.manifest.res
+         Debug\Sulphur.obj
+       Manifest:
+         Deleting file "Debug\SulphurMovie.exe.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SulphurMovie.exe.embed.manifest" /manifest Debug\SulphurMovie.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SulphurMovie.exe.embed.manifest.res" Debug\SulphurMovie_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Molecular Dynamics\C_code\SulphurMovie\Debug\SulphurMovie.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SulphurMovie.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Molecular Dynamics\C_code\SulphurMovie\Debug\SulphurMovie.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Molecular Dynamics\C_code\SulphurMovie\Debug\SulphurMovie.lib" /MACHINE:X86 Debug\SulphurMovie.exe.embed.manifest.res
+         Debug\Sulphur.obj
+         SulphurMovie.vcxproj -> C:\Molecular Dynamics\C_code\SulphurMovie\Debug\SulphurMovie.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SulphurMovie.unsuccessfulbuild".
+         Touching "Debug\SulphurMovie.lastbuildstate".
+     1>Done Building Project "C:\Molecular Dynamics\C_code\SulphurMovie\SulphurMovie\SulphurMovie.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.34

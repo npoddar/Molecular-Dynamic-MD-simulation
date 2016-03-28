@@ -1,0 +1,19 @@
+﻿Build started 10/6/2013 5:53:22 PM.
+Project "U:\Desktop\MolecularDynamics\C_Code\Combine_restartFiles\CombineFiles\CombineFiles.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\CombineFiles.lastbuildstate".
+InitializeBuildStatus:
+  Touching "Debug\CombineFiles.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Combine_restart.cpp
+  Combine_restart.cpp
+u:\desktop\moleculardynamics\c_code\combine_restartfiles\combinefiles\combine_restart.cpp(20): error C2148: total size of array must not exceed 0x7fffffff bytes
+u:\desktop\moleculardynamics\c_code\combine_restartfiles\combinefiles\combine_restart.cpp(20): error C2148: total size of array must not exceed 0x7fffffff bytes
+u:\desktop\moleculardynamics\c_code\combine_restartfiles\combinefiles\combine_restart.cpp(36): warning C4305: '=' : truncation from 'double' to 'float'
+u:\desktop\moleculardynamics\c_code\combine_restartfiles\combinefiles\combine_restart.cpp(37): warning C4305: '=' : truncation from 'double' to 'float'
+u:\desktop\moleculardynamics\c_code\combine_restartfiles\combinefiles\combine_restart.cpp(38): warning C4305: '=' : truncation from 'double' to 'float'
+Done Building Project "U:\Desktop\MolecularDynamics\C_Code\Combine_restartFiles\CombineFiles\CombineFiles.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.66
